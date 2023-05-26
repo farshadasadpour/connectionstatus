@@ -27,7 +27,7 @@ Overall, this project provides a simple yet effective solution for monitoring se
 
 1. Open the `config.py` file located in the project's root directory.
 2. Obtain a list of  servers and their corresponding ports.
-3. Update the end_points parameter in the config.py file with the obtained server information. Use the provided sample format as a reference.
+3. Update the `end_points` parameter in the config.py file with the obtained server information. Use the provided sample format as a reference.
 
 ### Step 2: Elasticsearch API Key
 
