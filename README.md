@@ -1,6 +1,5 @@
 # connection status integration with python and Elasticsearch
 
-A brief description of what this project does and why it is useful.
 This project is designed to help monitor the status of servers by checking the list of server ports and inserting the server status into an Elastic Search index. The project is written in Python and utilizes Elastic Search integration to store and retrieve data.
 
 The program works by first retrieving a list of server ports that need to be monitored. It then checks the status of each server port and records whether it is up or down. This information is then inserted into an Elastic Search index, which can be used for further analysis or monitoring.
