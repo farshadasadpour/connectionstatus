@@ -1,4 +1,3 @@
-
 from telnetlib import Telnet
 from datetime import datetime
 import config
