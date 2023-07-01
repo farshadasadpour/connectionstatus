@@ -11,5 +11,5 @@ COPY . .
 # Install tools required for project
 RUN pip install -r requirements.txt
 # Run python 
-CMD ["python3","main.py"]
+CMD ["python","main.py"]
 #ENTRYPOINT ["python3","main.py"]
