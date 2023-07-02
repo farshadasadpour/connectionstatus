@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  labels:
+    apps: app
+  name: appconfig
+  namespace: appns
+data:
+  config.py: |
+    end_points = [
+        {"server":[50606]},
+        {"server":[50614]},
+    ]
+
+
