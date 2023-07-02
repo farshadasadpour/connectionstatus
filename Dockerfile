@@ -10,8 +10,6 @@ WORKDIR /opt
 COPY /project .
 # Install tools required for project
 RUN pip install -r requirements.txt
-
-RUN ls
 # Run python 
-CMD ["python","main.py"]
-#ENTRYPOINT ["python3","main.py"]
+#CMD ["python","main.py"]
+ENTRYPOINT ["python3","main.py"]
