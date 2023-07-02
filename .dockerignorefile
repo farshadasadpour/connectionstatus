@@ -1,5 +1,5 @@
-/docker
-/kubernetes
+docker
+kubernetes
 LICENSE
 Dockerfile
 README.md

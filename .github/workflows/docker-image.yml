@@ -30,6 +30,6 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: ./Dockerfile
+          file: ./project/Dockerfile
           push: true
-          tags: f4rsh4d/connectionstatus:v1
+          tags: f4rsh4d/connectionstatus:v1.0.0
