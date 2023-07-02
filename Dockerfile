@@ -5,7 +5,7 @@ ENV TZ="Asia/Tehran"
 LABEL description='Dockerfile for Python 3.10 and check Connection Status' \
 maintainer='Farshad Asadpour,<f.asadpour@asax.ir>'
 # Set Working Directory
-WORKDIR /apt
+WORKDIR /opt
 # Copy the Project
 COPY . .
 # Install tools required for project
