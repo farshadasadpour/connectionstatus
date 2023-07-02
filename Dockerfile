@@ -7,7 +7,7 @@ maintainer='Farshad Asadpour,<f.asadpour@asax.ir>'
 # Set Working Directory
 WORKDIR /opt
 # Copy the Project
-COPY . .
+COPY /project .
 # Install tools required for project
 RUN pip install -r requirements.txt
 # Run python 
