@@ -1,5 +1,5 @@
 # Base Image
-FROM python:3.10
+FROM python:3.11
 # Set ENV
 ENV TZ="Asia/Tehran"
 LABEL description='Dockerfile for Python 3.10 and check Connection Status' \
